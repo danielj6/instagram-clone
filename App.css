@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+}
+
+.App {
+  background-color: #FAFAFA;
+}
+
+.app__header {
+  object-fit: contain;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.app__posts {
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  
+  
+  
+}
+
+.app__postsLeft {
+  margin-right: 300px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px){
+  .app__postsRight {
+    display: none;
+  }
+  .app__postsLeft{
+    margin-right: 0;
+  }
+}
+.app__postsRight {
+  position: fixed;
+  width: 300px;
+  margin-left: 500px;
+  
+
+}
+
+.app__headerImage{
+  object-fit: contain;
+}
+
+.app__signUp {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.info__title {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #262626;
+}
+
+.info__titleAvatar {
+  margin-right: 10px;
+}
+
+
+.info__subtitle {
+  color: #8e8e8e;
+}
+
+.info__titleLink {
+  color: #0095F6;
+  font-size: 12px;
+  margin-left: 130px;
+ 
+}
+
+.info__suggestion {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.info__suggestionText {
+  color: #8e8e8e;
+  font-size: 14px;
+}
+
+.info__suggestionAll {
+  font-size: 12px;
+  margin-left: 78px;
+}
+
+.info__suggestionAccounts {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+  color: #262626;
+}
+
+.info__titleLink_a {
+  color: #0095F6;
+  font-size: 12px;
+  margin-left: 100px;
+}
+.info__subtitleS {
+  font-size: 12px;
+  color: #8e8e8e;
+}
